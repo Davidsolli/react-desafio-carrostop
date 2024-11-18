@@ -1,0 +1,16 @@
+.dsc-header {
+    height: 70px;
+    background-color: var(--dsc-bg-color-tertiary);
+}
+
+.dsc-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.dsc-nav h1 {
+    font-size: 20px;
+    color: var(--dsc-font-color-tertiary);
+}
