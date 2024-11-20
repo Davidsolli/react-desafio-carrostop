@@ -1,0 +1,23 @@
+#dsc-catalog-container {
+  padding: 25px 0;
+}
+
+#dsc-catalog-container h2 {
+  font-size: 20px;
+  text-align: center;
+  color: var(--dsc-font-color-primary);
+}
+
+.dsc-cards-area {
+  padding: 5px 20px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+@media (min-width: 1200px) {
+  #dsc-catalog-container h2 {
+    font-size: 32px;
+  }
+}

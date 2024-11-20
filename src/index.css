@@ -1,18 +1,27 @@
 :root {
-    --dsc-bg-color-tertiary: #3c9af0;
+  --dsc-bg-color-tertiary: #3c9af0;
 
-    --dsc-font-color-tertiary: #fff;
+  --dsc-font-color-primary: #5e5e5e;
+  --dsc-font-color-tertiary: #fff;
+
+  --dsc-border-color-primary: #3c9af0;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .dsc-container {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.dsc-catalog-container {
+  width: 100%;
+  max-width: 746px;
+  margin: 0 auto;
 }
