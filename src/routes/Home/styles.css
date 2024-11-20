@@ -12,12 +12,35 @@
   padding: 5px 20px;
 }
 
-.card {
+.dsc-card {
+  margin-top: 20px;
+}
+
+#dsc-coments-container {
+  padding: 25px 0;
+  background-color: var(--dsc-bg-color-secondary);
+}
+
+#dsc-coments-container h2 {
+  font-size: 20px;
+  text-align: center;
+  color: var(--dsc-font-color-primary);
+}
+
+.dsc-coments-area {
+  padding: 5px 20px;
+}
+
+.dsc-comment {
   margin-top: 20px;
 }
 
 @media (min-width: 1200px) {
   #dsc-catalog-container h2 {
+    font-size: 32px;
+  }
+
+  #dsc-coments-container h2 {
     font-size: 32px;
   }
 }

@@ -1,7 +1,10 @@
 :root {
+  --dsc-bg-color-primary: #fff;
+  --dsc-bg-color-secondary: #c8c8c8;
   --dsc-bg-color-tertiary: #3c9af0;
 
   --dsc-font-color-primary: #5e5e5e;
+  --dsc-font-color-secondary: #3c9af0;
   --dsc-font-color-tertiary: #fff;
 
   --dsc-border-color-primary: #3c9af0;
@@ -17,11 +20,5 @@
 .dsc-container {
   width: 100%;
   max-width: 960px;
-  margin: 0 auto;
-}
-
-.dsc-catalog-container {
-  width: 100%;
-  max-width: 746px;
   margin: 0 auto;
 }
