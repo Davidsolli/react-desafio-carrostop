@@ -17,6 +17,12 @@
   font-family: "Poppins", sans-serif;
 }
 
+a,
+a:hover {
+  text-decoration: none;
+  color: var(--dsc-font-color-tertiary);
+}
+
 .dsc-container {
   width: 100%;
   max-width: 960px;

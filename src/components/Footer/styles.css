@@ -1,0 +1,29 @@
+.dsc-footer {
+  height: 120px;
+  background-color: var(--dsc-bg-color-tertiary);
+}
+
+.dsc-footer-information {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dsc-footer-information a {
+  font-size: 16px;
+}
+
+.dsc-footer-information address {
+  font-size: 16px;
+  color: var(--dsc-font-color-tertiary);
+  margin-top: 5px;
+}
+
+@media (min-width: 1200px) {
+  .dsc-footer-information {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

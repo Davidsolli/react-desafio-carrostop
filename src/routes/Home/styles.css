@@ -40,6 +40,14 @@
     font-size: 32px;
   }
 
+  .dsc-cards-area {
+    padding: 5px 0px;
+  }
+
+  .dsc-coments-area {
+    padding: 5px 0px;
+  }
+
   #dsc-coments-container h2 {
     font-size: 32px;
   }
